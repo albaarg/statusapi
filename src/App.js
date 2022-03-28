@@ -1,10 +1,10 @@
 import './App.css';
-import Status from './component/Status';
+import Statuses from './components/Statuses';
 
 function App() {
   return (
     <div className="App">
-    <Status/>      
+    <Statuses/>      
     </div>
   );
 }
