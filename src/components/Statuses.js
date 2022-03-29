@@ -1,6 +1,6 @@
 import Status from './Status';
 
-const ListApis = [
+export const ListApis = [
   {
     name: "Accounts",
     api: "https://api.factoryfour.com/accounts/health/status"
@@ -88,7 +88,7 @@ function Statuses() {
       <Status
       key={list.id}
       name={list.name}
-      api={list.name}/>
+      api={list.api}/>
     ))}
     </div>
     </div>
